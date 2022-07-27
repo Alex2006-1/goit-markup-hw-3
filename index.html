@@ -3,124 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 <link rel="stylesheet" href="./css/styles.css">    
 <title>Studio</title>
 </head>
 
 <body>
 
-    <header>
+    
+    <header class="main-container  header-border-main">
 
-        <nav class="nav">
-
-<a class="logo-link  link" href="./index.html">Web<span class="color-logo-header">Studio</span></a>
-
-<ul class="list">
-<li>
-    <a class="nav-link link  current" href="Studio">Studio</a>
-</li>
-<li>
-    <a class="nav-link link" href="./portfolio.html">Portfolio</a>
-</li>
-<li>
-    <a class="nav-link link" href="Contacts">Contacts</a>
-</li>
-</ul>
-         </nav>
-
-<div >
-    <ul class="list">
-        <li><a class="contacts-link  link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contacts-link  link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
-</div>
+        <div class="container">
+            <div class="header-flex">
+            <nav class="nav-menu">            
+                <a class="logo-header  link" href="./index.html">Web<span class="color-logo-header">Studio</span></a>
+            
+                <ul class="site-nav  list">
+                    <li class="site-nav-item">
+                        <a class="nav-link link  current" href="Studio">Studio</a>
+                    </li>
+                    <li class="site-nav-item">
+                        <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="site-nav-item"> 
+                        <a class="nav-link link" href="Contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            
+                <ul class="contacts  list">
+                    <li class="contacts-item"><a class="contacts-link  link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="contacts-item"><a class="contacts-link  link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>      
+                </div>
+    </div>
 
     </header>
 
 <main>
     <!-- EFFECTIVE SOLUTIONS FOR YOUR BUSINESS -->
     
-<section class="background-color">
-<h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+<section class="main-container  hero">
+
+<h1 class="hero-title">EFFECTIVE SOLUTIONS FOR  YOUR BUSINESS</h1>
 <button type="button" class="modal-button">Request our service</button>
+
 </section>
 
 
 <!-- Наши преимущества -->
 
-    <section>
-        <h2 hidden>Our advantages</h2>
-<ul class="list">        
-<li>
-    <h3 class="advantages-list">ATTENTION TO DETAILS</h3>
-<p class="description">We go into all the details and processes of your business to develop a customized solution.</p>
-</li>
-<li>
-<h3 class="advantages-list">PUNCTUALITY</h3>
-<p class="description">With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.</p>
-</li>
-<li>
-<h3 class="advantages-list">PLANNING</h3>
-<p class="description">You will be able to observe and participate in every phase of solution development and implementation.</p>
-</li>
-<li>
-<h3 class="advantages-list">MODERN TECHNOLOGIES</h3>
-<p class="description">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
-</li>
+<section class="main-container  section">
+    <h2 class="visually-hidden">Our advantages</h2>
+    <div class="container">
+    <ul class="advantages-main list">
+        <li class="advantages-item">
+            <h3 class="advantages-list  list">ATTENTION TO DETAILS</h3>
+            <p class="description">We go into all the details and processes of your business to develop a customized
+                solution.</p>
+        </li>
+        <li class="advantages-item">
+            <h3 class="advantages-list">PUNCTUALITY</h3>
+            <p class="description">With us, you can feel safe and secure. An important principle of the company: respect
+                your time and respect the agreed deadlines.</p>
+        </li>
+        <li class="advantages-item">
+            <h3 class="advantages-list">PLANNING</h3>
+            <p class="description">You will be able to observe and participate in every phase of solution development
+                and implementation.</p>
+        </li>
+        <li class="advantages-item">
+            <h3 class="advantages-list">MODERN TECHNOLOGIES</h3>
+            <p class="description  list">We use innovative tools to solve assigned tasks. It's time to simplify work
+                processes.</p>
+        </li>
     </ul>
-    </section>
+    </div>
+
+</section>
 
 <!-- What we do -->
 
-<section>
-    <h2 class="work-end-team">What we do</h2>
-    <ul class="list">
-        <li><img src="./images/what-we-do/box-1.jpg" alt="Work"  width="370" height="294"></li>
-    <li><img src="./images/what-we-do/box-2.jpg" alt="Design"  width="370" height="294"> </li>
-    <li><img src="./images/what-we-do/box-3.jpg" alt="Result"  width="370" height="294"></li>
+<section class="main-container  work-main">
+    <div class="container">
+<h2 class="work-team-title">What we do</h2>
+<ul class="work-list  list">
+    <li class="work-item"><img  src="./images/what-we-do/box-2.jpg" alt="Design"> </li>
+    <li class="work-item"><img  src="./images/what-we-do/box-3.jpg" alt="Result"></li>
+    <li class="work-item"><img src="./images/what-we-do/box-1.jpg" alt="Work"></li>
     </ul>
+    </div>
+ 
 </section>
 
 <!-- our team -->
 
-<section>
-    <h2 class="work-end-team">Our Team</h2>
-    <ul class="list">
-<li>
-<img src="./images/our-team/img-1.jpg" alt="Igor Demyanenko" width="270" height="260">
-<h3 lang="ru" class="name">Игорь Демьяненко</h3>
-<p class="profession">Product Designer</p>
-</li>
-<li>
-    <img src="./images/our-team/img-2.jpg" alt="Olga Repina" width="270" height="260"> 
-    <h3 lang="ru" class="name">Ольга Репина</h3>
-    <p class="profession">Frontend Developer</p>
-</li>
-<li>
-    <img src="./images/our-team/img-3.jpg" alt="Nikolay Tarasov" width="270" height="260">
-    <h3 lang="ru" class="name">Николай Тарасов</h3>
-    <p class="profession">Marketing</p>
-</li>
-<li>
-    <img src="./images/our-team/img-4.jpg" alt="Mikhail Ermakov" width="270" height="260">
-    <h3 lang="ru" class="name">Михаил Ермаков</h3>
-    <p class="profession">UI Designer</p>
-</li>
-    </ul>
+<section class="main-container  section  team-main">
+
+<div class="container">
+
+<h2 class="work-team-title">Our Team</h2>
+<ul class="team-list  list">
+    <li class="team-item">
+        <img  src="./images/our-team/img-1.jpg" alt="Igor Demyanenko">
+        <h3 lang="ru" class="name">Игорь Демьяненко</h3>
+        <p class="profession">Product Designer</p>
+    </li>
+    <li class="team-item">
+        <img  src="./images/our-team/img-2.jpg" alt="Olga Repina">
+        <h3 lang="ru" class="name">Ольга Репина</h3>
+        <p class="profession">Frontend Developer</p>
+    </li>
+    <li class="team-item">
+        <img  src="./images/our-team/img-3.jpg" alt="Nikolay Tarasov">
+        <h3 lang="ru" class="name">Николай Тарасов</h3>
+        <p class="profession">Marketing</p>
+    </li>
+    <li class="team-item">
+        <img  src="./images/our-team/img-4.jpg" alt="Mikhail Ermakov">
+        <h3 lang="ru" class="name">Михаил Ермаков</h3>
+        <p class="profession  list">UI Designer</p>
+    </li>
+</ul>
+</div>
 </section>
 
 </main>
 
-<footer>
-    <div class="background-color">
-        <a class="logo-link  link" href="./index.html">Web <span class="color-logo-footer">Studio</span> </a>
+
+<footer class="footer-main  main-container">
+    <div class="container">
+        <a class="logo-footer  link" href="./index.html">Web <span class="color-logo-footer">Studio</span> </a>
         <address>
-            <ul class="list">
+            <ul class="adress-box  list">
                 <li>
                     <p class="adress">695 Park Ave, New York, NY 10065, United States</p>
                 </li>

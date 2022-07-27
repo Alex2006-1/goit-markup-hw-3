@@ -6,47 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 <link rel="stylesheet" href="./css/styles.css">    
 <title>Portfolio</title>
 </head>
 
 <body>
 
-    <header>
+    <header class="header  container  header-border-porfolio">
+        <div class="container">
+            <div class="header-flex">    
+        <nav class="nav-menu">
     
-        <nav class="nav">
+            <a class="logo-header  link" href="./index.html">Web<span class="color-logo-header">Studio</span></a>
     
-            <a class="logo-link  link" href="./index.html">Web<span class="color-logo-header">Studio</span></a>
-    
-            <ul class="list">
-                <li>
+            <ul class="site-nav  list">
+                <li class="site-nav-item">
                     <a class="nav-link link " href="./index.html">Studio</a>
                 </li>
-                <li>
+                <li class="site-nav-item">
                     <a class="nav-link link current" href="Portfolio">Portfolio</a>
                 </li>
-                <li>
+                <li class="site-nav-item">
                     <a class="nav-link link" href="Contacts">Contacts</a>
                 </li>
             </ul>
         </nav>
-    
-        <div>
-            <ul class="list">
-                <li><a class="contacts-link  link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts-link  link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+
+            <ul class=" contacts  list">
+                <li class="contacts-item"><a class="contacts-link  link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="contacts-link  link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
+            </div>
         </div>
     
     </header>
 
 <main>
 
-<section>
-    <h1 hidden>Our works</h1>
-<div>
+<section class="section">
+    <h1 class="visually-hidden">Our works</h1>
+    <div class="container">
+<div class="menu-button">
     <button type="button" class="portfolio-button">All</button>
     <button type="button" class="portfolio-button">Web-sites</button>
     <button type="button" class="portfolio-button">Apps</button>
@@ -54,71 +57,76 @@
     <button type="button" class="portfolio-button">Marketing</button>
 </div>
 
-    <ul class="list">
-        <li>
-         <a class="link" href="Technoduck"><img src="./images/portfolio/img-1.jpg" alt="Technoduck Web-site" width="370" height="294">
-        <h2 class="portfolio-list">Technoduck</h2>
-        <p class="direction">Web-site</p>
-         </a>
-        </li> 
-        <li>
-            <a class="link" href="Poster"><img src="./images/portfolio/img-2.jpg" alt="Poster New Orlean vs Golden Star" width="370" height="294">
-           <h2 class="portfolio-list">Poster New Orlean vs Golden Star</h2>
-           <p class="direction">Design</p>
+    <ul class="list  portfolio-link">
+        <li class="portfolio-link-item">
+            <a class="link" href="Technoduck"><img src="./images/portfolio/img-1.jpg" alt="Technoduck Web-site">                
+                    <h2 class="portfolio-list">Technoduck</h2>
+                    <p class="direction">Web-site</p>
+                
+                
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Seafood_Restaurant"><img src="./images/portfolio/img-3.jpg" alt="Seafood Restaurant " width="370" height="294">
-           <h2 class="portfolio-list">Seafood Restaurant </h2>
-           <p class="direction">Apps</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Poster"><img  src="./images/portfolio/img-2.jpg" alt="Poster New Orlean vs Golden Star">
+                <h2 class="portfolio-list">Poster New Orlean vs Golden Star</h2>
+                <p class="direction">Design</p>
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Project_Prime"><img src="./images/portfolio/img-4.jpg" alt="Headphones" width="370" height="294">
-           <h2 class="portfolio-list">Project Prime</h2>
-           <p class="direction">Marketing</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Seafood_Restaurant"><img src="./images/portfolio/img-3.jpg" alt="Seafood Restaurant">
+                <h2 class="portfolio-list">Seafood Restaurant </h2>
+                <p class="direction">Apps</p>
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Project_Boxes"><img src="./images/portfolio/img-5.jpg" alt="Boxes" width="370" height="294">
-           <h2 class="portfolio-list">Project Boxes</h2>
-           <p class="direction">Apps</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Project_Prime"><img src="./images/portfolio/img-4.jpg" alt="Headphones">
+                <h2 class="portfolio-list">Project Prime</h2>
+                <p class="direction">Marketing</p>
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Inspiration_has_no_Borders"><img src="./images/portfolio/img-6.jpg" alt="Monitor" width="370" height="294">
-           <h2 class="portfolio-list">Inspiration has no Borders</h2>
-           <p class="direction">Web-site</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Project_Boxes"><img src="./images/portfolio/img-5.jpg" alt="Boxes">
+                <h2 class="portfolio-list">Project Boxes</h2>
+                <p class="direction">Apps</p>
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Limited_Edition"><img src="./images/portfolio/img-7.jpg" alt="Booklet" width="370" height="294">
-           <h2 class="portfolio-list">Limited Edition</h2>
-           <p class="direction">Design</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Inspiration_has_no_Borders"><img src="./images/portfolio/img-6.jpg" alt="Monitor">
+                <h2 class="portfolio-list">Inspiration has no Borders</h2>
+                <p class="direction">Web-site</p>
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Project_LAB"><img src="./images/portfolio/img-8.jpg" alt="Plaque on a string" width="370" height="294">
-           <h2 class="portfolio-list">Project LAB</h2>
-           <p class="direction">Marketing</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Limited_Edition"><img src="./images/portfolio/img-7.jpg" alt="Booklet">
+                <h2 class="portfolio-list">Limited Edition</h2>
+                <p class="direction">Design</p>
             </a>
-           </li> 
-           <li>
-            <a class="link" href="Growing_Business"><img src="./images/portfolio/img-9.jpg" alt="Notebook" width="370" height="294">
-           <h2 class="portfolio-list">Growing Business</h2>
-           <p class="direction">Apps</p>
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Project_LAB"><img src="./images/portfolio/img-8.jpg" alt="Plaque on a string">  
+                <h2 class="portfolio-list">Project LAB</h2>
+                <p class="direction">Marketing</p>
             </a>
-           </li> 
+        </li>
+        <li class="portfolio-link-item">
+            <a class="link" href="Growing_Business"><img src="./images/portfolio/img-9.jpg" alt="Notebook">
+                <h2 class="portfolio-list">Growing Business</h2>
+                <p class="direction">Apps</p>
+            </a>
+        </li>
     </ul>
+    </div>
+
+    
 </section>
 
 </main>
 
-<footer>
-    <div class="background-color">
-        <a class="logo-link  link" href="./index.html">Web <span class="color-logo-footer">Studio</span> </a>
+<footer class="footer-main  main-container">
+    <div class="container">   
+        <a class="logo-footer  link" href="./index.html">Web <span class="color-logo-footer">Studio</span> </a>
         <address>
-            <ul class="list">
+            <ul class="adress-box  list">
                 <li>
                     <p class="adress">695 Park Ave, New York, NY 10065, United States</p>
                 </li>
