@@ -61,8 +61,7 @@ img {
 
 /* Start Header */
 
-.header-border-main,
-.header-border-porfolio {
+.header-border {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -181,7 +180,6 @@ img {
 
 .advantages-main {
     display: flex;
-    align-items: center;
 }
 
 .advantages-item {
@@ -316,7 +314,6 @@ img {
 }
 
 .adress-box {
-    width: 231px;
     margin-top: 20px;
 }
 
